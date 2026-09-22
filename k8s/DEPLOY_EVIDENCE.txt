@@ -1,0 +1,4 @@
+NAME                    READY   STATUS    RESTARTS   AGE    IP           NODE       NOMINATED NODE   READINESS GATES
+inventory-service-pod   1/1     Running   0          3m9s   10.244.0.3   minikube   <none>           <none>
+
+curl http://localhost:8080/products via kubectl port-forward -> 200 OK with product list
